@@ -1,0 +1,128 @@
+
+header {
+    background: darkturquoise;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#leftHeader {
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+}
+
+#midHeader {
+    width: 450px;
+    margin-top: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+#rightHeader {
+    width: 150px;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#cartAndLogin {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#searchBar {
+    width: 300px;
+    height: 35px;
+    border: 1px solid darkgray;
+    border-radius: 8px;
+    margin-left: 40px;
+    margin-top: 10px;
+    color: black;
+}
+
+#searchForm {
+    display: flex;
+    flex-direction: row;
+}
+
+#searchIcon {
+    margin-top: 11px;
+    margin-left: 5px;
+    border-radius: 8px;
+}
+
+
+#loginButton {
+    width: 45px;
+    height: 35px;
+    border-radius: 50%;
+    background: White;
+    color: darkblue;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 40px;
+    margin-right: 8px;
+
+}
+
+#LogInName {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+#cartButton {
+    /*position: relative;*/
+    display: flex;
+    margin-right: 10px;
+}
+
+#cartCount {
+    /*position: absolute;*/
+    left: 9px;
+    top: -25px;
+    font-weight: bold;
+    color: darkblue;
+    margin-left: 5px;
+}
+
+#logoText
+{
+    font-family: 'Gamja Flower', cursive;
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+#logo {
+    margin-right: 14px;
+
+}
+
+#categoryDropdown
+{
+    position: relative;
+    display: inline-block;
+    color: darkblue;
+    margin-left: 5px;
+    justify-content: left;
+}
+
+#categoryDropdownList {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 60px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+
+#categoryDropdown:hover #categoryDropdownList {
+    display: block
+}

@@ -1,0 +1,14 @@
+footer {
+    background: darkturquoise;
+    color: white;
+    height: 80px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#rightFooter {
+    padding-right: 10px;
+    justify-content: center;
+}
+
